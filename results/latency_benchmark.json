@@ -1,0 +1,18 @@
+{
+  "samples": 100,
+  "warmup_runs": 5,
+  "mean_ms": 6.49,
+  "median_ms": 5.63,
+  "p95_ms": 10.32,
+  "min_ms": 3.68,
+  "max_ms": 39.87,
+  "target_latency_ms": 100,
+  "within_target_percent": 100.0,
+  "measurement_scope": "Local inference including audio file loading, MFCC feature extraction, TF-IDF transformation, feature scaling, emotion classification, and rule-based response generation.",
+  "excluded_from_timing": [
+    "Model loading",
+    "Microphone capture",
+    "User speech duration",
+    "UI rendering"
+  ]
+}

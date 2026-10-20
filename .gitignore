@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+data/raw/
+data/processed/
+.cache/
+
+*.tar.gz
+*.mp4
+*.wav
+
+.ipynb_checkpoints/

@@ -1,0 +1,28 @@
+{
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_logical_cores": 12,
+    "total_system_ram_gb": 15.69,
+    "gpu": "NVIDIA GeForce MX550, 2048, 0"
+  },
+  "model": {
+    "architecture": "TF-IDF + MFCC + Logistic Regression",
+    "text_features": 20000,
+    "audio_features": 40,
+    "classifier_coefficients_and_intercepts": 140287,
+    "idf_values": 20000,
+    "scaler_stored_values": 120,
+    "total_fitted_numeric_values": 160407,
+    "checkpoint_mb": 1.812
+  },
+  "memory": {
+    "process_ram_before_model_load_mb": 153.41,
+    "process_ram_after_model_load_mb": 156.77,
+    "process_ram_after_warmup_mb": 194.68
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "inference_device": "CPU",
+    "requires_cuda": false
+  }
+}
